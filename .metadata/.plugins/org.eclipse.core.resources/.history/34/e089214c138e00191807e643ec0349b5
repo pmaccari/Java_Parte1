@@ -1,0 +1,16 @@
+
+public class manipula_cadenas_II {
+
+	public static void main(String[] args) {
+		// Como crear una cadena dentro de otra (String dentro de String)
+											//Extrayendo " para programar en Java"
+		String frase="Hoy es un estupendo día para programar en Java";
+		
+		String frase_resumen=frase.substring(1, 3);
+		
+		System.out.println(frase_resumen);
+		
+
+	}
+
+}

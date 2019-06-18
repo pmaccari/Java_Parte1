@@ -1,0 +1,19 @@
+import javax.swing.*;
+public class Entrada_ejemplo_2 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+		String nombre_usuario=JOptionPane.showInputDialog("Introduce tu Nombre, por favor");
+		
+		String edad=JOptionPane.showInputDialog("Introduce tu edad, por favor");//Introducir parseInt() para que convierta el texto en número
+		
+		int edad_usuario=Integer.parseInt(edad);
+		
+		edad_usuario++;
+		
+		System.out.println("Hola " + nombre_usuario + " el año próximo tendrás " + edad_usuario + " años.");
+
+	}
+
+}
